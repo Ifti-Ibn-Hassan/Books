@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("photo-1507842217343-583bb7270b66.jpg");
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    margin:40px auto;
+}
+.book{
+    width: 48%;
+    float: left;
+    background:darkgray;
+    margin:5px;
+    padding: 10px;
+}
+.icon{
+    width: 30%;
+    float:right;
+}
+button{
+    background:springgreen;
+    border-radius: 7px;
+    padding: 6px;
+    float:right;
+    cursor: pointer;
+}
